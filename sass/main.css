@@ -455,22 +455,6 @@ img {
   line-height: 26px;
 }
 
-@media only screen and (max-width: 956px) {
-  .services__inner {
-    padding: 40px;
-  }
-  .services__list {
-    flex-direction: column;
-  }
-  .services__item {
-    width: 100%;
-    max-width: 579px;
-  }
-  .services__item::before {
-    width: 50px;
-    height: 59px;
-  }
-}
 @media only screen and (max-width: 576px) {
   .services__inner {
     padding: 64px 24px 0;
@@ -672,12 +656,7 @@ img {
     flex-direction: column;
     justify-content: center;
   }
-  .site-footer__img {
-    width: 217px;
-    height: 24px;
-    padding-left: 0;
-  }
-  .site-footer__list {
+  .site .site-footer__list {
     margin-top: 48px;
     flex-direction: column;
   }
