@@ -54,7 +54,7 @@ img {
     padding: 43.5px 0;
 }
 
-.open .menu{
+.open .site-header__btn{
     background-image: url(../images/exit.svg);
 }
 
@@ -96,7 +96,7 @@ img {
     }
 }
 
-.menu{
+.site-header__btn{
     display: none;
     background-image: url("../images/menu.svg");
     background-repeat: no-repeat;
@@ -123,7 +123,6 @@ img {
         left: 0;
         top: 90px;
         height: 82vh;
-        display: block;
         display: none;
         text-align: center;
         width: 100vw;
@@ -147,7 +146,7 @@ img {
         line-height: 32px; /* 133.333% */
     }
     
-    .menu {
+    .site-header__btn {
         display: block;
     }
 }
