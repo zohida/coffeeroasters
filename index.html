@@ -10,6 +10,7 @@
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,900&display=swap"
     rel="stylesheet"/>
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
@@ -48,9 +49,12 @@
     </header>
     
     <main>
-        <section class="hero">
+        <section  class="hero">
             <div class="container">
-                <div class="hero__inner">
+                <div data-aos="flip-left" class="hero__inner" 
+                data-aos-duration="2000"data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0">
                     <div class="hero__content">
                         <h1 class="hero__title">
                             Great coffee made simple.
@@ -71,7 +75,10 @@
             <div class="container">
                 <div class="collection__inner">
                     <ul class="collection__list">
-                        <li class="collection__item">
+                        <li  class="collection__item" data-aos="fade-up"
+                        data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0"> 
                             <picture class="collection__pic">
                                 <source 
                                 media="(max-width:576px )" 
@@ -92,7 +99,10 @@
                                 </p>
                             </div> 
                         </li>
-                        <li class="collection__item">
+                        <li class="collection__item" data-aos="fade-down"
+                        data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <picture class="collection__pic">
                                 <source 
                                 media="(max-width:576px )" 
@@ -113,7 +123,10 @@
                                 </p>
                             </div> 
                         </li>
-                        <li class="collection__item">
+                        <li class="collection__item" data-aos="fade-up"
+                        data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <picture class="collection__pic">
                                 <source 
                                 media="(max-width:576px )" 
@@ -134,7 +147,10 @@
                                 </p>
                             </div> 
                         </li>
-                        <li class="collection__item">
+                        <li class="collection__item" data-aos="fade-down"
+                        data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <picture class="collection__pic">
                                 <source 
                                 media="(max-width:576px )" 
@@ -174,7 +190,10 @@
                         </p>
                     </div>
                     <ul class="services__list">
-                        <li class="services__item">
+                        <li class="services__item" data-aos="fade-down"
+                        data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <div class="services__item-wrapper">
                                 <h3 class="services__subtitle">
                                     Best quality
@@ -184,7 +203,10 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="services__item">
+                        <li class="services__item" data-aos="fade-up"
+                        data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <div class="services__item-wrapper">
                                 <h3 class="services__subtitle">
                                     Exclusive benefits
@@ -194,7 +216,10 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="services__item">
+                        <li class="services__item" data-aos="fade-down"
+                        data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <div class="services__item-wrapper">
                                 <h3 class="services__subtitle">
                                     Free shipping
@@ -215,7 +240,9 @@
                         How it works
                     </h2>
                     <ol class="process__list">
-                        <li class="process__item">
+                        <li class="process__item" data-aos="zoom-in-right" data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <strong class="process__number">
                                 01
                             </strong>
@@ -227,7 +254,9 @@
                                 are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
                             </p>
                         </li>
-                        <li class="process__item">
+                        <li class="process__item" data-aos="zoom-in" data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <strong class="process__number">
                                 02
                             </strong>
@@ -239,7 +268,9 @@
                                 style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
                             </p>
                         </li>
-                        <li class="process__item">
+                        <li class="process__item" data-aos="zoom-in-left" data-aos-duration="2000"data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0">
                             <strong class="process__number">
                                 03
                             </strong>
@@ -344,7 +375,10 @@
         </div>
     </div>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./js/main.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
